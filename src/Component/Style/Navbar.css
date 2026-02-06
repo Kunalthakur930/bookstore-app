@@ -1,0 +1,63 @@
+.navbar {
+  background-color: #00e5ff;
+  width: 100%;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Shop Name */
+.shop-name {
+  font-family: cursive;
+  font-size: 24px;
+  font-weight: 800;
+  color: #2b1d1d;
+  cursor: pointer;
+}
+
+.shop-name:hover {
+  text-decoration: underline;
+}
+
+/* Cart */
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.cart-icon {
+  font-size: 28px;
+}
+
+.cart-count {
+  background-color: #ff3d00;
+  color: white;
+  font-size: 14px;
+  padding: 2px 8px;
+  border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  .navbar-container {
+    height: auto;
+    padding: 15px;
+  }
+
+  .shop-name {
+    font-size: 20px;
+  }
+
+  .cart-icon {
+    font-size: 24px;
+  }
+}
